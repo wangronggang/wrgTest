@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E3CB86B222CF752001DDC97 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3CB86A222CF752001DDC97 /* Person.m */; };
 		6EE4D79E2229311C00925C53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE4D79D2229311C00925C53 /* AppDelegate.m */; };
 		6EE4D7A12229311C00925C53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE4D7A02229311C00925C53 /* ViewController.m */; };
 		6EE4D7A42229311C00925C53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE4D7A22229311C00925C53 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E3CB869222CF752001DDC97 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		6E3CB86A222CF752001DDC97 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		6EE4D7992229311C00925C53 /* Mytests_cocos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mytests_cocos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE4D79C2229311C00925C53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6EE4D79D2229311C00925C53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,9 +81,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E3CB868222CF730001DDC97 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				6E3CB869222CF752001DDC97 /* Person.h */,
+				6E3CB86A222CF752001DDC97 /* Person.m */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
 		6EE4D7902229311C00925C53 = {
 			isa = PBXGroup;
 			children = (
+				6E3CB868222CF730001DDC97 /* test */,
 				6EE4D79B2229311C00925C53 /* Mytests_cocos */,
 				6EE4D7B42229312000925C53 /* Mytests_cocosTests */,
 				6EE4D7BF2229312000925C53 /* Mytests_cocosUITests */,
@@ -264,6 +277,7 @@
 			files = (
 				6EE4D7A12229311C00925C53 /* ViewController.m in Sources */,
 				6EE4D7AC2229312000925C53 /* main.m in Sources */,
+				6E3CB86B222CF752001DDC97 /* Person.m in Sources */,
 				6EE4D79E2229311C00925C53 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
